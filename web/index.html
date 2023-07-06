@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fNIRS</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="/eel.js"></script> 
+</head>
+<body>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="5000" value="50" class="slider" id="ambient">
+        <input type="range" min="1" max="5000" value="50" class="slider" id="730nm">
+        <input type="range" min="1" max="5000" value="50" class="slider" id="850nm">
+    </div>
+    <div class="startbutton">
+        <button id="button" type="button">START</button>
+    </div>
+    <table id="table">
+        <tr>
+            <th>Ambient</th>
+            <th>730nm</th>
+            <th>850nm</th>
+          </tr>
+    </table>
+</body>
+<script src="js/main.js"></script>
+</html>
